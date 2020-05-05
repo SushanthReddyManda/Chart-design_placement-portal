@@ -341,7 +341,7 @@ function createMap() {
   mapChart.seriesContainer.resizable = false;
   mapChart.resizable = false;
   //mapChart.geodata = am4geodata_continentsHigh;
-  mapChart.geodataSource.url = "http://www.amcharts.com/lib/4/geodata/json/continentsHigh.json"
+  mapChart.geodataSource.url = "geo.json"
   mapChart.projection = new am4maps.projections.Mercator();
   mapChart.x = am4core.percent(300 / 5);
   mapChart.y = mainContainer.pixelHeight / 2;
